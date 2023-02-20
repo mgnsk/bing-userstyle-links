@@ -1,4 +1,4 @@
-## Bing Userstyle for links
+## Bing userstyle for links
 
 The Bing search engine has a usability issue that stems from missing presentational hints on links. All links are colored as purple,
 giving no indication of which links are visited and which are not.
