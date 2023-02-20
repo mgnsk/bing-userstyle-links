@@ -7,10 +7,10 @@
 ==/UserStyle== */
 @-moz-document domain("bing.com") {
     /* Per the standard guidelines: https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3 */
-    h2 > :link, h3 > :link {
+    .b_algo :link {
         color: #0000EE !important;
     }
-    h2 > :visited, h3 > :visited {
+    .b_algo :visited {
         color: #551A8B !important;
     }
 }
