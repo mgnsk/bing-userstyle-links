@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           bing.com - 2/20/2023, 9:36:43 AM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Standard link colors for the Bing search engine.
+@author         Magnus Kokk
+==/UserStyle== */
+@-moz-document domain("bing.com") {
+    /* Per the standard guidelines: https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3 */
+    :link {
+        color: #0000EE !important;
+    }
+    :visited {
+        color: #551A8B !important;
+    }
+}
