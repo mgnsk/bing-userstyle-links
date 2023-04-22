@@ -9,6 +9,7 @@ This userstyle sets the color of unvisited links to blue and visited links to pu
 
 For userstyles, I recommend Stylish ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/), [Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe))
 
+Install the userstyle from https://userstyles.org/styles/263172/bing-link-color-fixer
 
 
 ### Update as of April 2023
