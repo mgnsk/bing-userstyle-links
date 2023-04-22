@@ -1,15 +1,17 @@
 ## Bing userstyle for links
 
-The Bing search engine has a usability issue that stems from missing presentational hints on links. All links are colored as purple,
+The Bing search engine has a usability issue that stems from broken presentational hints on links. All links are colored as purple,
 giving no indication of which links are visited and which are not.
 
-This userstyle sets the color of unvisited links to blue and visited links to purple as per standard guidelines: https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3.
+This seems to be an [old problem](https://www.bing.com/search?q=bing+all+links+purple), keeping this userstyle relevant.
+
+This userstyle sets the color of unvisited links to blue and visited links to purple as per [standard guidelines](https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3).
 
 ## Applying the userstyle in your browser
 
-For userstyles, I recommend Stylish ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/), [Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe))
+First, install Stylish: ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/), [Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe))
 
-Install the userstyle from https://userstyles.org/styles/263172/bing-link-color-fixer
+Then install this userstyle from https://userstyles.org/styles/263172/bing-link-color-fixer
 
 
 ### Update as of April 2023
@@ -48,4 +50,3 @@ Some chromium-based browsers are still clearly broken as unvisited and visited l
   }
   ```
 
-This seems to be an [old problem](https://www.bing.com/search?q=bing+all+links+purple), keeping this userstyle relevant.
