@@ -9,44 +9,18 @@ This userstyle sets the color of unvisited links to blue and visited links to pu
 
 ## Applying the userstyle in your browser
 
-First, install Stylish: ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/), [Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe))
+There are two ways of applying the userstyle:
 
-Then install this userstyle from https://userstyles.org/styles/263172/bing-link-color-fixer
+- #### With uBlock Origin
 
-
-### Update as of April 2023
-At first glance it looks like they have fixed the styles on Firefox where the colors for unvisited and visited links are different:
-
-- Links:
-  ```css
-  #b_results > li a {
-      color: #1a0dab;
-  }
-  a:visited, #b_results > li a:visited {
-      color: #4a148c;
-  }
+  If you already use uBlock Origin and don't want to install Stylish, you can add these lines to your custom filters:
   ```
-  
-But after some usage, Firefox also breaks as Bing starts serving the wrong CSS for no reason (even in tabs that had correct colors earlier, have wrong colors after a refresh):
-- Links:
-  ```css
-  #b_results>li a {
-      color: #4007a2;
-  }
-  a:visited, #b_results > li a:visited {
-      color: #4007a2;
-  }
+  www.bing.com#$#main #b_results > li a{color:#0000EE !important}
+  www.bing.com#$#main a:visited, #b_results > li a:visited{color:#551A8B !important}
   ```
 
-Some chromium-based browsers are still clearly broken as unvisited and visited links share the same color:
+- #### With Stylish
 
-- Links:
-  ```css
-  #b_results>li a {
-      color: #4007a2;
-  }
-  a:visited, #b_results>li a:visited {
-      color: #4007a2;
-  }
-  ```
+  First, install Stylish: ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/), [Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe))
 
+  Then install this userstyle from https://userstyles.org/styles/263172/bing-link-color-fixer
