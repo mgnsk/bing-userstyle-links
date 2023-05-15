@@ -1,3 +1,6 @@
+## Update
+Does not work reliably. Bing treats links to the same result from different searches as different results.
+
 ## Bing userstyle for links
 
 The Bing search engine has a usability issue that stems from broken presentational hints on links. All links are colored as purple,
